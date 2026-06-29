@@ -86,10 +86,6 @@
 			<version>3.1.0</version>
 			<scope>compile</scope>
 		</dependency>
-		<dependency>
-			<groupId>com.cgs.automation</groupId>
-			<artifactId>BCBI_Automation</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+	
 	</dependencies>
 </project>

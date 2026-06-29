@@ -7,6 +7,8 @@ import org.testng.annotations.Test;
 
 public class RegistrationPageTest {
 
+	
+
 	@Test(dataProvider = "data")
 	public void testRegistration(String fname, String lname, String phone, String email) {
 
