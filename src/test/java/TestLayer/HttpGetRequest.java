@@ -11,7 +11,7 @@ public class HttpGetRequest {
 
 		public static void main(String[] args) {
 			// step 1; Set the Base URI
-			RestAssured.baseURI = "http://localhost:3000/employees";
+			RestAssured.baseURI = "http://localhost:3001/users";
 
 			// step 2: get the Request specification object so we can select HTTP Request
 			RequestSpecification httpRequest = RestAssured.given();

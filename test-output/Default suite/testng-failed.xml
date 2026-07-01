@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Data_Driven_Testing.RegistrationPageTest">
+      <class name="Data_Driven_Testing.Reg1">
         <methods>
           <include name="testRegistration"/>
         </methods>
-      </class> <!-- Data_Driven_Testing.RegistrationPageTest -->
+      </class> <!-- Data_Driven_Testing.Reg1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

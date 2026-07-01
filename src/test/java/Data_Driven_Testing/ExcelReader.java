@@ -47,7 +47,7 @@ public class ExcelReader {
 
 		// Get total rows in the sheet
 		int Row = getTotalRow(sheetIndex);
-
+		
 		// Get total cells in the sheet
 		int Cell = getTotalCell(sheetIndex);
 

@@ -20,6 +20,8 @@ public class RegistrationPageTest {
 		ExcelReader reader = new ExcelReader("C:\\Users\\DELL\\eclipse-workspace\\RestAssuredProject\\resources\\TestData.xlsx");
 
 		Object[][] data = reader.getSheetData(0);
+		
+		System.out.println("File Data: "+data);
 
 		return data;
 	}
